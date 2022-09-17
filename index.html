@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+    <html lang="it">
+        <head>
+            <meta charset="utf-8">
+            <title>Home Page</title>
+            <!---inserire favcon-->
+
+            <link rel="stylesheet" href="">
+
+            <style>
+                body {
+                    margin: 0;
+                    background-image: -webkit-linear-gradient(top right, rgb(107,107,107) 0%, rgb(92,92,92) 25%, rgb(77,77,77) 50%, rgb(52,52,52) 75%, rgb(37,37,37) 100%);
+                }
+
+                main {                                     
+                    position: absolute;
+                    top: 30%;
+                    left: 30%;
+                    width: 40%;
+                }
+
+                .quote {
+                    font-size: 45px;
+                    margin-bottom: 15px;
+                }
+
+                .about-me {
+                    font-size: 22px;
+                    margin-top: 0;
+                }
+
+                footer {
+                    width: 100%;
+                    height: 75px;
+                    bottom: 3%;
+                    position: absolute;
+
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    align-items: center;
+                }
+
+                @media only screen and (max-width: 700px) {
+                    main {
+                        top: 30%;
+                        left: 25%;
+                        width: 50%;
+                    }
+
+                    .quote {
+                        font-size: 25px;
+                        margin-bottom: 10px;
+                    }
+
+                    .about-me {
+                        font-size: 16px;
+                        margin-top: 0;
+                    }                    
+                }
+
+                @media only screen and (min-width: 701px) and (max-width: 1200px) {
+                    main {
+                        top: 30%;
+                        left: 25%;
+                        width: 50%;
+                    }
+
+                    .quote {
+                        font-size: 35px;
+                        margin-bottom: 12px;
+                    }
+
+                    .about-me {
+                        font-size: 20px;
+                        margin-top: 0;
+                    }
+                }
+
+            </style>
+        </head>
+
+        <body>
+            <main>
+                <p class="quote">Chi vuol muovere il mondo, muova prima se stesso</p>
+                <p class="about-me">Il motto dei campioni</p>
+            </main>
+
+            <footer>
+                <div>Curriculum Vitae</div>
+                <div>Portfolio</div>
+                <div>Contattami</div>
+                <div>In divenire</div>                
+            </footer>
+                
+            
+        </body>
+    </html>

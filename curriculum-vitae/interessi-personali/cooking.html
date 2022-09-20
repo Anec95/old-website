@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+    <html lang="it">
+        <head>
+            <meta charset="utf-8">
+            <title>Cucina</title>
+
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <style>
+                html {
+                    height: 100%;
+                }
+
+                body {
+                    margin: 0;
+
+                    background-image: url(../../assets/images/cooking-index.jpg);
+                    background-size: cover;                    
+                    background-position: center;
+                }
+
+                .supplement-button {
+                    position: absolute;
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    left: 1%;
+                    top: 50px;
+                    border: 1px solid rgb(245, 245, 245);
+                    background-color: rgba(52,52,52,0.6);
+                    border-radius: 21px;
+                    width: 80px;
+                    height: 40px;
+                }
+
+                .button {
+                    color: rgb(245, 245, 245);
+                    position: relative;
+                }
+
+                .back {
+                    font-size: 20px;
+                }
+
+                .home-page {
+                    font-size: 25px;
+                }
+
+                main {
+                    height: 100%;
+                }
+
+                .cooking-paragraph {
+                    position: absolute;
+                    height: max-content;
+                    left: 22%;
+                    top: 30%;
+                    right: 22%;
+                    padding: 10px 30px;
+                    text-align: justify;
+
+                    color: rgba(52,52,52,1);
+                    font-size: 20px;
+                    background-color: rgba(245,245,245,0.8);
+                    border-radius: 40px;
+                }
+
+                @media only screen and (min-width: 1201px) {
+                    body {                 
+                        background-position: top;
+                    }                    
+                }
+            </style>
+        </head>
+
+        <body>
+            <div class="supplement-button">
+                <div>
+                    <a class="button back" href="index.html"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+                </div>
+                <div><a class="button home-page" href="../../index.html"><i class="fa fa-home" aria-hidden="true"></i></a></div>
+            </div>
+            <main>
+                <div class="cooking-paragraph">
+                    <p>Mi diletto in cucina fin da giovane età e mi è sempre piaciuto sperimentare, anche le
+                        cose più folli e inimmaginabili, ma sempre con gusto e delicatezza; senza scordare
+                        gli insegnamenti delle nonne, che di gusto ne hanno sempre in abbondanza.
+                        <br>
+                        <br>
+                        Così facendo, rubacchiando qua e là spunti e consigli, ho scoperto come la miglior
+                        ricetta sia il non seguirne nessuna in particolare; ma utilizzare la propria esperienza
+                        per riadattare ciò che esiste.
+                        <br>
+                        <br>
+                        Come tante cose, ritengo che la cucina sia ottima per allenare creatività e fantasia.
+                        <br>
+                        <br>
+                        Utilizzando sempre ingredienti freschi e genuini.
+                    </p>
+                </div>
+            </main>
+        </body>
+    </html>

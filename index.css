@@ -1,0 +1,43 @@
+.container-hamburger {
+    position: relative;
+}
+
+.hamburger-menu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 68.750px;
+    height: 90px;
+    bottom: 28px;
+    opacity: 0;
+}
+
+.hamburger-menu:hover {
+    opacity: 1;
+}
+
+.option {
+    margin: 0 0 5px 0;
+    padding-left: 5px;
+    background-color: rgba(52,52,52,0.8);
+    border-radius: 0 5px 5px 0;   
+}
+
+@media only screen and (max-width: 700px) {
+    .hamburger-menu {        
+        width: 68.750px;
+    }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1200px) {
+    .hamburger-menu {        
+        width: 78.56px;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    .hamburger-menu {        
+        width: 88.38px;
+        height: 100px;
+    }
+}

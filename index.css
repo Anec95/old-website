@@ -1,43 +1,124 @@
-.container-hamburger {
-    position: relative;
+html {
+    height: 100%;
 }
 
-.hamburger-menu {
+body {
+    margin: 0;
+    background-image: -webkit-linear-gradient(top right, rgb(107,107,107) 0%, rgb(92,92,92) 25%, rgb(77,77,77) 50%, rgb(52,52,52) 75%, rgb(37,37,37) 100%);
+    color: rgb(245, 245, 245);
+}
+
+main {                                     
     position: absolute;
+    top: 32%;
+    left: 29%;
+    width: 42%;
+}
+
+.quote {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.about-me {
+    font-size: 22px;
+    margin-top: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
     display: flex;
-    flex-direction: column;
-    width: 68.750px;
-    height: 90px;
-    bottom: 28px;
-    opacity: 0;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.hamburger-menu:hover {
-    opacity: 1;
+.link-index,
+button {
+    font-size: 18px;
+    color: rgb(245, 245, 245);
+    font-variant: small-caps;
+    background-color: transparent;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
 }
 
-.option {
-    margin: 0 0 5px 0;
-    padding-left: 5px;
-    background-color: rgba(52,52,52,0.8);
-    border-radius: 0 5px 5px 0;   
+button {
+    padding: 18px;
+}
+
+.container-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.container-menu .menu {
+    display: none;
+    position: absolute;
+    bottom: 50px;
+    width: 124.38px;
+    z-index: 1;
+}
+
+.menu a {
+    padding: 14px 18px;
+    display: block;
+}
+
+.menu a:hover {
+    background-color: rgb(52,52,52);
+}
+
+.container-menu:hover .menu {
+    display: block;
+}
+
+.container-menu:hover button {
+    background-color: rgb(37,37,37);
+}
+
+.inside-option {
+    font-size: 14px;
+    padding: 0 6px;
 }
 
 @media only screen and (max-width: 700px) {
-    .hamburger-menu {        
-        width: 68.750px;
+    main {
+        top: 30%;
+        left: 25%;
+        width: 50%;
+    }
+
+    .quote {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .about-me {
+        font-size: 16px;
+        margin-top: 0;
     }
 }
 
 @media only screen and (min-width: 701px) and (max-width: 1200px) {
-    .hamburger-menu {        
-        width: 78.56px;
+    main {
+        top: 30%;
+        left: 25%;
+        width: 50%;
     }
-}
 
-@media only screen and (min-width: 1201px) {
-    .hamburger-menu {        
-        width: 88.38px;
-        height: 100px;
+    .quote {
+        font-size: 35px;
+        margin-bottom: 12px;
+        padding: 0 40px;
+    }
+
+    .about-me {
+        font-size: 20px;
+        margin-top: 0;
+        padding: 0 40px;
     }
 }

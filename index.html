@@ -2,124 +2,10 @@
     <html lang="it">
         <head>
             <meta charset="utf-8">
-            <title>Home Page</title>
-            <!---inserire favcon-->
+            <meta name="author" content="Thomas Miori">
+            <title>Thomas Miori</title>
 
             <link rel="stylesheet" href="index.css">
-
-            <style>
-                html {
-                    height: 100%;
-                }
-
-                body {
-                    margin: 0;
-                    background-image: -webkit-linear-gradient(top right, rgb(107,107,107) 0%, rgb(92,92,92) 25%, rgb(77,77,77) 50%, rgb(52,52,52) 75%, rgb(37,37,37) 100%);
-                    color: rgb(245, 245, 245);
-                }
-
-                main {                                     
-                    position: absolute;
-                    top: 30%;
-                    left: 30%;
-                    width: 40%;
-                }
-
-                .quote {
-                    font-size: 45px;
-                    margin-bottom: 15px;
-                }
-
-                .about-me {
-                    font-size: 22px;
-                    margin-top: 0;
-                }
-
-                footer {
-                    width: 100%;
-                    height: 75px;
-                    bottom: 3%;
-                    position: absolute;
-
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: space-around;
-                    align-items: center;
-                }
-
-                .link-index {
-                    font-size: 18px;
-                    font-variant: small-caps;
-                    font-weight: 500;
-                }
-
-                .link-index:link,
-                .link-index:hover,
-                .link-index:visited,
-                .link-index:after {
-                    color: rgb(245, 245, 245);
-                    text-decoration: none;
-                }
-
-                .link-hambur {
-                    font-size: 14px;
-                }
-
-                @media only screen and (max-width: 700px) {
-                    main {
-                        top: 30%;
-                        left: 25%;
-                        width: 50%;
-                    }
-
-                    .quote {
-                        font-size: 25px;
-                        margin-bottom: 10px;
-                    }
-
-                    .about-me {
-                        font-size: 16px;
-                        margin-top: 0;
-                    }
-                    
-                    .link-index {
-                        font-size: 14px;
-                    }
-
-                    .link-hambur {
-                        font-size: 14px;
-                    }
-                }
-
-                @media only screen and (min-width: 701px) and (max-width: 1200px) {
-                    main {
-                        top: 30%;
-                        left: 25%;
-                        width: 50%;
-                    }
-
-                    .quote {
-                        font-size: 35px;
-                        margin-bottom: 12px;
-                        padding: 0 40px;
-                    }
-
-                    .about-me {
-                        font-size: 20px;
-                        margin-top: 0;
-                        padding: 0 40px;
-                    }
-
-                    .link-index {
-                        font-size: 16px;
-                    }
-
-                    .link-hambur {
-                        font-size: 14px;
-                    }
-                }
-
-            </style>
         </head>
 
         <body>
@@ -129,19 +15,17 @@
             </main>
 
             <footer>
-                <div><a class="link-index" href="curriculum-vitae/index.html">Curriculum Vitae</a></div>
-                <div><a class="link-index" href="portfolio/index.html">Portfolio</a></div>
-                <div>
-                    <p class="link-index">Contattami</p>
-                    <div class="conteiner-hamburger">                        
-                        <div class="hamburger-menu">
-                            <p class="option"><a class="link-index link-hambur" href="https://www.linkedin.com/in/thomas-m-a75156202" target="_blank">LinkedIn</a></p>                        
-                            <p class="option"><a class="link-index link-hambur" href="mailto: miori.thomas95@gmail.com">Email</a></p>
-                            <p class="option"><a class="link-index link-hambur" href="https://www.instagram.com/ilburberonarrante/" target="_blank">Instagram</a></p>
-                        </div>
+                <a class="link-index" href="">Curriculum Vitae</a>
+                <a class="link-index" href="">Portfolio</a>
+                <div class="container-menu">
+                    <button>Contattami</button>
+                    <div class="menu">
+                        <a class="link-index inside-option" href="">LinkedIn</a>
+                        <a class="link-index inside-option" href="">Email</a>
+                        <a class="link-index inside-option" href="">Instagram</a>
                     </div>
                 </div>
-                <div><a class="link-index" href="curriculum-vitae/interessi-personali/index.html">About Me</a></div>                
-            </footer> 
+                <a class="link-index" href="">About Me</a>                
+            </footer>
         </body>
     </html>

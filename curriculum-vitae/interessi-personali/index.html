@@ -5,6 +5,7 @@
             <title>Interessi Personali</title>
             
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="../../assets/css/button.css">
 
             <style>
                 html {
@@ -15,41 +16,13 @@
                     margin: 0;
                     background-image: url(../../assets/images/photo-header.JPG);
                     background-size: cover;
-                    background-position: center;
                 }
 
                 section {
                     width: 100%;
                     height: 200px;
                 }
-
-                .supplement-button {
-                    position: absolute;
-                    display: flex;
-                    justify-content: space-evenly;
-                    align-items: center;
-                    left: 1%;
-                    top: 150px;
-                    border: 1px solid rgb(245, 245, 245);
-                    background-color: rgba(52,52,52,0.6);
-                    border-radius: 21px;
-                    width: 80px;
-                    height: 40px;
-                }
-
-                .button {
-                    color: rgb(245, 245, 245);
-                    position: relative;
-                }
-
-                .back {
-                    font-size: 20px;
-                }
-
-                .home-page {
-                    font-size: 25px;
-                }
-
+                
                 .interests-title {
                     margin: 0;
                     padding-top: 80px;
@@ -189,10 +162,14 @@
             <section>
                 <h1 class="interests-title">INTERESSI PERSONALI</h1>
                 <div class="supplement-button">
-                    <div>
-                        <a class="button back" href="../index.html"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+                    <div class="button-back">
+                        <a class="back" href="../index.html"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+                        <p class="hover-paragraph">Back</p>
                     </div>
-                    <div><a class="button home-page" href="../../index.html"><i class="fa fa-home" aria-hidden="true"></i></a></div>
+                    <div class="button-home">
+                        <a class="home-page" href="../../index.html"><i class="fa fa-home" aria-hidden="true"></i></a>
+                        <p class="hover-paragraph">Home</p>
+                    </div>
                 </div>
             </section>
             <main>

@@ -5,6 +5,7 @@
             <title>Curriculum Vitae</title>
 
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="../assets/css/button.css">
 
             <style>
                 html {
@@ -23,50 +24,6 @@
                     background-position: 0 350px;
                     width: 100%;
                     height: 200px;
-                }
-
-                .supplement-button {
-                    position: absolute;
-                    display: flex;
-                    justify-content: space-evenly;
-                    align-items: center;
-                    left: 1%;
-                    top: 150px;
-                    border: 1px solid rgb(245, 245, 245);
-                    background-color: rgba(52,52,52,0.6);
-                    border-radius: 21px;
-                    width: 80px;
-                    height: 40px;
-                }
-
-                .button {
-                    color: rgb(245, 245, 245);
-                    position: relative;
-                }
-
-                .back {
-                    font-size: 20px;
-                }
-
-                /*.back-paragraph {
-                    position: relative;
-                    height: 20px;
-                    width: 40px;
-                    color: rgb(245, 245, 245);
-                    background-color: rgba(52,52,52,0.5);
-                    text-align: center;
-                    border-radius: 3px;
-                    top: 20px;
-                    left: 3px;
-                    opacity: 0;
-                }
-
-                .back-paragraph:hover {
-                    opacity: 1;
-                }*/
-
-                .home-page {
-                    font-size: 25px;
                 }
 
                 .passport-photo {
@@ -211,13 +168,6 @@
                         border: 6px solid white;
                     }
 
-                    .supplement-button {
-                        left: 1.5%;
-                        top: 160px;
-                        width: 60px;
-                        height: 30px;
-                    }
-
                     .info,
                     .interests {
                         font-size: 13px;
@@ -234,13 +184,6 @@
                 }
 
                 @media only screen and (min-width: 701px) and (max-width: 1200px) {
-                    .supplement-button {
-                        left: 1.5%;
-                        top: 160px;
-                        width: 60px;
-                        height: 30px;
-                    }
-
                     .passport-photo {
                         left: 14%;                        
                         top: 124px;
@@ -277,14 +220,6 @@
                     header {
                         background-position: 0 500px;
                     }
-                    
-                    .back {
-                        font-size: 25px;
-                    }
-
-                    .home-page {
-                        font-size: 30px;
-                    }
                 }
             </style>
         </head>
@@ -292,11 +227,14 @@
         <body>
             <header>                
                 <div class="supplement-button">
-                    <div>
-                        <a class="button back" href="../index.html"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
-                        <!--<p class="back-paragraph">Back</p>-->
+                    <div class="button-back">
+                        <a class="back" href="../index.html"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+                        <p class="hover-paragraph">Back</p>
                     </div>
-                    <div><a class="button home-page" href="../index.html"><i class="fa fa-home" aria-hidden="true"></i></a></div>
+                    <div class="button-home">
+                        <a class="home-page" href="../index.html"><i class="fa fa-home" aria-hidden="true"></i></a>
+                        <p class="hover-paragraph">Home</p>
+                    </div>
                 </div>
                 <div class="passport-photo"></div>
                 <div class="name-title">THOMAS MIORI</div>                

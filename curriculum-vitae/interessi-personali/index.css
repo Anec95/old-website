@@ -1,0 +1,148 @@
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-image: url(../../assets/images/photo-header.JPG);
+    background-size: cover;
+}
+
+section {
+    width: 100%;
+    height: 200px;
+}
+                
+.interests-title {
+    margin: 0;
+    padding-top: 80px;
+
+    color:rgb(245, 245, 245);
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 40px;
+}
+
+main {
+    color: rgb(52,52,52);
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-bottom: 40px;
+}
+
+.interests-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;                    
+     gap: 20px;
+    padding-bottom: 125px;
+}
+
+.container-interest {
+    position: relative;
+    height: 200px;
+    background-size: cover; 
+    background-position: center;  
+}
+
+.container-interest:hover {
+    cursor: pointer;
+    opacity: 0.6;
+    transition: 1s;
+}
+
+.reading {
+    background-image: url(../../assets/images/reading.jpg);                                     
+}
+
+.reading-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    opacity: 0;
+}
+
+.reading-menu:hover {
+    opacity: 1;
+    transition: 2s;
+    cursor: pointer;
+}
+
+.reading-menu p {
+    margin: 15px 0;
+}
+
+.reading-link {
+    color: rgba(245, 245, 245, 1);
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: 20px;
+}
+
+.reading-link:hover {                    
+    text-decoration: underline;
+}
+
+.cooking {
+    background-image: url(../../assets/images/cooking.jpg);
+}
+
+.nature {
+    background-image: url(../../assets/images/nature.jpg);
+}
+                
+.antique {
+    background-image: url(../../assets/images/antique.jpg);
+}
+
+.analog {
+    background-image: url(../../assets/images/analogic.jpg);
+}
+
+.my-work {
+    background-image: url(../../assets/images/portfolio-1.png);
+}
+
+.interest-class {
+    position: absolute;
+    right: 2%;
+    bottom: 4%;
+
+    color:rgb(245, 245, 245);
+    font-variant: small-caps;
+    margin: 0;
+}
+
+@media only screen and (max-width: 700px) {
+    .container-interest {
+        height: 120px;
+    }
+
+    .reading-link {
+        font-size: 15px;
+    }
+
+    .reading-menu p {
+        margin: 5px 0;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    .interests-title {
+        padding-top: 70px;
+        letter-spacing: 20px;
+        font-size: 60px;
+    }
+
+    main {
+        margin-top: 3%;
+    }
+
+    .container-interest {
+        height: 300px;
+    }                
+}

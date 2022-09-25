@@ -53,12 +53,17 @@
 }
 
 .button-home .hover-paragraph {
-    bottom: -36px;
+    bottom: -35px;
 }
 
 .button-back:hover .hover-paragraph,
 .button-home:hover .hover-paragraph {
     display: block;
+}
+
+.fa-chevron-left:hover,
+.fa-home:hover {
+    filter: brightness(80%);
 }
 
 @media only screen and (max-width: 700px) {

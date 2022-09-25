@@ -9,7 +9,7 @@ body {
 
 header {
     position: relative;
-    background-image: url(../assets/images/photo-header.JPG);
+    background-image: url(../assets/images/index/photo-header.JPG);
     background-size: cover;
     background-position: 0 350px;
     width: 100%;
@@ -25,7 +25,7 @@ header {
     border-radius: 96px;
 
     background-color: beige;
-    background-image: url(../assets/images/passport-photo.jpg);
+    background-image: url(../assets/images/index/passport-photo.jpg);
     background-size: cover;
     background-position-y: -15px;
     border: 6px solid white;

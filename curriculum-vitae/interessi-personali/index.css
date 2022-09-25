@@ -5,7 +5,7 @@ html {
 
 body {
     margin: 0;
-    background-image: url(../../assets/images/photo-header.JPG);
+    background-image: url(../../assets/images/index/photo-header.JPG);
     background-size: cover;
 }
 
@@ -53,7 +53,7 @@ main {
 }
 
 .reading {
-    background-image: url(../../assets/images/reading.jpg);                                     
+    background-image: url(../../assets/images/index/reading.jpg);                                     
 }
 
 .reading-menu {
@@ -88,23 +88,23 @@ main {
 }
 
 .cooking {
-    background-image: url(../../assets/images/cooking.jpg);
+    background-image: url(../../assets/images/index/cooking.jpg);
 }
 
 .nature {
-    background-image: url(../../assets/images/nature.jpg);
+    background-image: url(../../assets/images/index/nature.jpg);
 }
                 
 .antique {
-    background-image: url(../../assets/images/antique.jpg);
+    background-image: url(../../assets/images/index/antique.jpg);
 }
 
 .analog {
-    background-image: url(../../assets/images/analogic.jpg);
+    background-image: url(../../assets/images/index/analogic.jpg);
 }
 
 .my-work {
-    background-image: url(../../assets/images/portfolio-1.png);
+    background-image: url(../../assets/images/index/portfolio-1.png);
 }
 
 .interest-class {

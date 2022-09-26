@@ -1,4 +1,4 @@
-const imgArray = ["../images/portfolio/page-1.png", "../images/portfolio/page-2.png", "../images/portfolio/page-3.png", "../images/portfolio/page-4.png", "../images/portfolio/page-5.png", "../images/portfolio/page-6.png", "../images/portfolio/page-7.png", "../images/portfolio/page-8.png"];
+const imgArray = ["../assets/images/portfolio/page-1.png", "../assets/images/portfolio/page-2.png", "../assets/images/portfolio/page-3.png", "../assets/images/portfolio/page-4.png", "../assets/images/portfolio/page-5.png", "../assets/images/portfolio/page-6.png", "../assets/images/portfolio/page-7.png", "../assets/images/portfolio/page-8.png"];
     
     let index = 0;
                 

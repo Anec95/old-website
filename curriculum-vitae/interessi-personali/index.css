@@ -104,7 +104,7 @@ main {
 }
 
 .my-work {
-    background-image: url(../../assets/images/index/portfolio-1.png);
+    background-image: url(../../assets/images/index/my-work.jpg);
 }
 
 .interest-class {
@@ -128,6 +128,11 @@ main {
 
     .reading-menu p {
         margin: 5px 0;
+    }
+
+    .interest-class {
+        font-size: 14px;
+        text-align: right;
     }
 }
 

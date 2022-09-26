@@ -74,6 +74,10 @@
         height: 30px;
     }
 
+    .sup-cooking {
+        top: 65px;
+    }
+
     .back {    
         font-size: 17px;
     }
@@ -93,6 +97,10 @@
         top: 160px;
         width: 60px;
         height: 30px;
+    }
+
+    .sup-cooking {
+        top: 65px;
     }
 
     .back {    

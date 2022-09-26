@@ -41,7 +41,7 @@ header {
     
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(15, 15vw);
+    grid-template-rows: repeat(17, 15vw);
     gap: 15px;
 }
 
@@ -68,6 +68,7 @@ header {
     bottom: 45%;
 }
 
+.element-1:hover,
 .element-19:hover,
 .element-20:hover {
     width: 120%;
@@ -75,17 +76,25 @@ header {
 }
 
 .element-1 {
-    grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 3;
+    /* grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3; */
 }
 
 .element-2 {
-    grid-column-start: 2;
-    grid-column-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 3;
+    /* grid-column-start: 2;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 3; */
 }
 
 .element-3 {
@@ -103,8 +112,12 @@ header {
 }
 
 .element-5 {
-    grid-column: 4;
-    grid-row: 1;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 15;
+    grid-row-end: 17;
+    /* grid-column: 4;
+    grid-row: 1; */
 }
 
 .element-6 {
@@ -122,8 +135,12 @@ header {
 }
 
 .element-8 {
-    grid-column: 4;
-    grid-row: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 15;
+    grid-row-end: 17;
+    /* grid-column: 4;
+    grid-row: 2; */
 }
 
 .element-9 {

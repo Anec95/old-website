@@ -65,6 +65,12 @@ header {
     text-decoration: none;
 }
 
+.link-info:hover,
+.link-interests:hover {
+    filter: brightness(250%);
+    transition: 1s;
+}
+
 .info,
 .interests {                    
     position: absolute;                    

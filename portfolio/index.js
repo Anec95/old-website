@@ -10,10 +10,6 @@ const imgArray = ["../assets/images/portfolio/page-1.png", "../assets/images/por
     imghtml.src = imgArray[index];
     pageNumber.innerHTML = (index + 1) + " di " + imgArray.length;
 
-if(index!==0) {
-   leftArrow.style.display="block";
-}
-
 function nextImage() {
     if(index < imgArray.length -1) {
         console.log("Clicked on next page");

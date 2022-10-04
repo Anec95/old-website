@@ -189,7 +189,90 @@ margin: 5px 0 0 20px;
 
                 /* responsive css below */
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 500px) {
+    main {
+        margin-top: 30%;
+        margin-bottom: 80px;
+    }
+    
+    .grid {
+        row-gap: 15px;
+    }
+                    
+    .first-column,
+    .second-column {
+        font-size: 12px;
+    }
+    
+    footer {
+        height: 250px;
+        
+    }
+                    
+    footer h2 {
+        font-size: 18px;
+    }
+    
+    .contact:link,
+    .contact:hover,
+    .contact:after,
+    .contact:visited {
+        font-size: 16px;
+    }
+    
+                    /* curriculum-vitae/index.html page below */
+
+    .istitution {
+        margin-top: 20px;
+    }
+
+    .education-dates {
+        margin-bottom: 15px;
+    }
+    
+    .education-dates,
+    .internship-dates {
+        font-size: 8px;
+    }
+    
+    .istitution {
+        margin: 15px 0 3px 0;
+    }
+                    
+    .certificate {
+        margin: 0;
+        font-size: 12px;
+    }
+    
+    .internship-dates {
+        margin-bottom: 51px;
+    }
+    
+    .education-dates {
+        margin-bottom: 38px;
+    }
+    
+                    /* curriculum-vitae/informazioni-personali page below */
+                    
+    .skill {
+        min-width: 180px;
+    }
+    
+    .internal-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    }
+    
+    .inside {
+    margin: 5px 0 0 20px;
+    }
+    
+    .last-row {
+        margin-bottom: 20px;
+    }    
+}
+
+@media only screen and (min-width: 501px) and (max-width: 700px) {
     header {
         background-position: 0 260px;                                       
     }

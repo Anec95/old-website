@@ -7,8 +7,9 @@ html {
 body {
     margin: 0;
 
-    background-size: cover;                    
+    background-size: fill;                    
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .cooking-background {

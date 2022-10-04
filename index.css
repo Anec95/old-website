@@ -132,6 +132,10 @@ button {
         width: 200px;
     }
 
+    footer {
+        height: 50px;
+    }
+
     .link-index {
         font-size: 14px;
     }

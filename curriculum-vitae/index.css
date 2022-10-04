@@ -146,7 +146,7 @@ footer p {
 
 .education-dates,
 .internship-dates {
-    margin: 0;
+    margin-top: 0;
     font-size: 12px;
     text-align: end;
 }
@@ -162,6 +162,10 @@ footer p {
 
 .internship-dates {
     margin-bottom: 51px;
+}
+
+.education-dates {
+    margin-bottom: 38px;
 }
 
                 /* curriculum-vitae/informazioni-personali page below */
@@ -249,11 +253,15 @@ margin: 5px 0 0 20px;
     .profession-title {
         font-size: 18px;
     }
+
+    .education-dates {
+        margin-bottom: 37px;
+    }
 }
 
 @media only screen and (min-width: 905px) and (max-width: 1020px) {
     .september {
-    margin-bottom: 36px;
+        margin-bottom: 36px;
     }
 }
 

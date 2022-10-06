@@ -116,9 +116,9 @@ button {
 
 @media only screen and (max-width: 700px) {
     main {
-        top: 30%;
-        left: 25%;
-        width: 50%;
+        top: 38%;
+        left: 10%;
+        width: 80%;
     }
 
     .quote {
@@ -129,7 +129,7 @@ button {
     .about-me {
         font-size: 14px;
         margin-top: 0;
-        width: 200px;
+        width: 250px;
     }
 
     footer {
@@ -137,8 +137,9 @@ button {
     }
 
     .link-index {
-        font-size: 14px;
+        font-size: 12px;
     }
+
     .container-menu .menu {
         display: none;
         position: absolute;
@@ -148,34 +149,46 @@ button {
     }
 
     button {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .menu a {
-        padding: 12px 18px;
+        padding: 14px 18px;
     }
 
     .inside-option {
-        font-size: 12px;
+        font-size: 10px;
     }
 }
 
 @media only screen and (min-width: 701px) and (max-width: 1200px) {
     main {
-        top: 30%;
-        left: 25%;
-        width: 50%;
+        top: 35%;
+        left: 15%;
+        width: 70%;
     }
 
     .quote {
-        font-size: 35px;
+        font-size: 40px;
         margin-bottom: 12px;
         padding: 0 40px;
     }
 
     .about-me {
-        font-size: 16px;
+        font-size: 20px;
         margin-top: 0;
         padding: 0 40px;
+    }
+
+    .link-index {
+        font-size: 18px;
+    }
+
+    button {
+        font-size: 18px;
+    }
+
+    .inside-option {
+        font-size: 14px;
     }
 }

@@ -23,7 +23,7 @@ header {
     top: 104px;
     width: 180px;
     height: 180px;
-    border-radius: 96px;
+    border-radius: 50%;
 
     background-color: beige;
     background-image: url(../assets/images/index/passport-photo.jpg);
@@ -189,22 +189,22 @@ margin: 5px 0 0 20px;
 
                 /* responsive css below */
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
     header {
-        background-position: 0 260px;                                       
+        background-position: 0 200px;                                       
     }
 
     .title {
-        margin-left: -193px;
+        margin-left: -173px;
         top: 70px;
     }
         
     .name-title {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .profession-title {
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .passport-photo {
@@ -212,50 +212,143 @@ margin: 5px 0 0 20px;
         top: 144px;
         width: 100px;
         height: 100px;
-        border-radius: 96px;
-        border: 6px solid white;
+        border: 4px solid white;
     }
 
     .info,
     .interests {
-        font-size: 13px;
-        top: 205px;
+        font-size: 10px;
+        top: 220px;
     }
 
     .info {
-        right: 150px;
+        right: 99px;
     }
 
-    .interest {
-        right: 5px;
+    .interests {
+        right: 8px;
+    }
+
+    main {
+        margin-top: 15%;
+        margin-bottom: 50px;
+    }
+    
+    .grid {
+        row-gap: 8px;
+        column-gap: 15px;
+    }
+                    
+    .first-column,
+    .second-column {
+        font-size: 14px;
+    }
+        
+    footer {
+        height: 130px;
+    }
+                    
+    footer h2 {
+        font-size: 20px;
+        padding: 12px 0;
+    }
+                    
+    footer p {
+        margin: 0 0 10px 0;
+    }
+    
+    .contact:link,
+    .contact:hover,
+    .contact:after,
+    .contact:visited {
+        font-size: 12px;
+    }
+    
+                    /* curriculum-vitae/index.html page below */
+    
+    .work-dates {
+        font-size: 12px;
+    }
+    .education-dates,
+    .internship-dates {
+        font-size: 10px;
+    }
+    
+    .istitution {
+        margin: 15px 0 3px 0;
+    }
+                    
+    .certificate {
+        margin: 0;
+        font-size: 12px;
+    }
+    
+    .internship-dates {
+        margin-bottom: 51px;
+    }
+    
+    .education-dates {
+        margin-bottom: 49px;
+    }
+
+    .survey {
+        margin-top: 30px;
+    }
+
+    .october {
+        margin-bottom: 88px;
+    }
+
+    .september {
+        margin-bottom: 73px;
+    }
+
+                    /* curriculum-vitae/informazioni-personali page below */
+    .info-main {
+        margin-left: 10%;
+    }
+
+    .skill {
+        min-width: 160px;
+    }
+
+    .lan {
+        margin-bottom: 0;
+    }
+
+    .inside {
+        font-size: 12px;
     }
 }
 
-@media only screen and (min-width: 701px) and (max-width: 1200px) {
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
     .passport-photo {
         left: 14%;                        
         top: 124px;
         width: 140px;
         height: 140px;
-        border-radius: 76px;
         border: 6px solid white;
         }
 
     .title {
-        margin-left: -211px;
-        top: 50px;
+        margin-left: -228px;
+        top: 40px;
     }
         
     .name-title {
-        font-size: 40px;
+        font-size: 45px;
     }
 
     .profession-title {
-        font-size: 18px;
+        font-size: 20x;
     }
 
     .education-dates {
         margin-bottom: 37px;
+    }
+
+    .info-main {
+        height: 58vh;
     }
 }
 

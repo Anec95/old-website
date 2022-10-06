@@ -230,9 +230,9 @@ header {
     grid-row-end: 15; 
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
     header {
-        background-position: 0 260px;                                       
+        background-position: 0 220px;                                       
     }
     
     .name-title {
@@ -248,17 +248,72 @@ header {
         right: 8%;
         gap: 10px;
     }
+
+    .grid-element:hover {
+        width: 150%;
+        bottom: 25%;
+        right: 45%;
+    }
+
+    .element-2:hover,
+    .element-4:hover,
+    .element-8:hover {
+        right: 20%;
+    }
+    
+    .element-18:hover {
+        bottom: 45%;
+    }
+    
+    .element-1:hover,
+    .element-19:hover {
+        width: 120%;
+        right: 18%;
+    }
+
+    .element-20:hover {
+        width: 120%;
+        right: 12%;
+    }
 }
 
-@media only screen and (min-width: 701px) and (max-width: 1200px) {
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
     .name-title {
         top: 70px;
         margin-left: -320px;
         font-size: 35px;
     }
-    
+
     .grid-element:hover {
         width: 170%;
+        bottom: 25%;
+        right: 35%;
+    }
+
+    .element-2:hover,
+    .element-4:hover,
+    .element-8:hover {
+        right: 30%;
+    }
+
+    .element-5:hover,
+    .element-12:hover {
+        right: 45%;
+    }
+    
+    .element-18:hover {
+        bottom: 75%;
+    }
+    
+    .element-1:hover,
+    .element-19:hover {
+        width: 140%;
+        right: 24%;
+    }
+
+    .element-20:hover {
+        width: 140%;
+        right: 15%;
     }
 }
 

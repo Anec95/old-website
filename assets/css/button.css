@@ -50,6 +50,7 @@
     left: 50%;
     display: none;
     pointer-events: none;
+    z-index: 200;
 }
 
 .button-home .hover-paragraph {
@@ -66,12 +67,17 @@
     filter: brightness(80%);
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
     .supplement-button {
         left: 1.5%;
         top: 160px;
         width: 60px;
         height: 30px;
+    }    
+
+    .sup-cv {
+        left: 0;
+        top: 140px;
     }
 
     .sup-interests {
@@ -91,7 +97,7 @@
     }
 }
 
-@media only screen and (min-width: 701px) and (max-width: 1200px) {
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
     .supplement-button {
         left: 1.5%;
         top: 160px;

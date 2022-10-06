@@ -60,54 +60,56 @@ main {
     text-align: center;    
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
     .cooking-paragraph {
-        left: 15%;
-        top: 20%;
-        right: 15%;
+        left: 12%;
+        top: 24%;
+        right: 12%;
 
         font-size: 16px;
     }
 
     .antique-paragraph {
-        left: 15%;
-        top: 35%;
-        right: 15%;
+        left: 12%;
+        top: 27%;
+        right: 12%;
 
         font-size: 16px;
     }
 
     .nature-paragraph {
-        left: 20%;
-        top: 30%;
-        right: 20%;
+        left: 15%;
+        top: 65%;
+        right: 15%;
+        text-align: justify;
 
         font-size: 16px;
     }
 }
 
-@media only screen and (min-width: 701px) and (max-width: 1200px) {
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
     .cooking-paragraph {
         left: 15%;
-        top: 20%;
+        top: 28%;
         right: 15%;
 
-        font-size: 18px;
+        font-size: 22px;
     }
 
     .antique-paragraph {
         left: 15%;
-        top: 35%;
+        top: 30%;
         right: 15%;
 
-        font-size: 18px;
+        font-size: 22px;
     }
 
     .nature-paragraph {
         left: 22%;
+        top: 70%;
         right: 22%;
 
-        font-size: 18px;
+        font-size: 22px;
     }
 }
 

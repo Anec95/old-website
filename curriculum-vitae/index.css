@@ -269,6 +269,7 @@ margin: 5px 0 0 20px;
     .work-dates {
         font-size: 12px;
     }
+
     .education-dates,
     .internship-dates {
         font-size: 10px;
@@ -288,7 +289,7 @@ margin: 5px 0 0 20px;
     }
     
     .education-dates {
-        margin-bottom: 49px;
+        margin-bottom: 45px;
     }
 
     .survey {
@@ -296,7 +297,7 @@ margin: 5px 0 0 20px;
     }
 
     .october {
-        margin-bottom: 88px;
+        margin-bottom: 74px;
     }
 
     .september {

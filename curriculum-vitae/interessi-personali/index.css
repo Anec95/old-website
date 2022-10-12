@@ -4,79 +4,125 @@ html {
 
 body {
     margin: 0;
-    background-image: url(../../assets/images/index/photo-header.JPG);
-    background-size: fill;
-}
-
-section {
-    width: 100%;
-    height: 200px;
-}
-                
-.interests-title {
-    position: absolute;
-    left: 50%;
-    top: 30px;
-    margin-left: -443px;
-    letter-spacing: 10px;
-    padding: 0 6px;
-    border-radius: 10px;
-    
-    font-size: 60px;
-    color: rgb(245, 245, 245);
-    background-color: rgba(52,52,52,0.5);
+    background-color: rgb(245, 245, 245);
 }
 
 main {
-    color: rgb(52,52,52);
-    margin-left: 10%;
-    margin-top: 5%;
-    margin-right: 10%;
-    margin-bottom: 40px;
-}
-
-.interests-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;                    
-    gap: 20px;
-    padding-bottom: 125px;
-}
-
-.container-interest {
+    margin: 6% 22%;
     position: relative;
-    height: 200px;
-    background-size: cover; 
-    background-position: center;  
 }
 
-.container-interest:hover {
+.title-interest {
+    font-size: 8.5vh;
+    font-variant: small-caps;
+    color: rgba(52,52,52,0.7);
+    writing-mode: vertical-rl;
+    rotate: 180deg;
+
+    position: absolute;
+    left: -20%;
+    bottom: 0;
+}
+
+.element,
+.elements {
+    position: relative;
+}
+
+.elements:hover {
     cursor: pointer;
-    opacity: 0.6;
-    transition: 1s;
+    z-index: 100;
+    width: 120%;
+    height: 120%;
+    right: 10%;
+    bottom: 10%;
+    border: 4px solid rgba(52,52,52,0.7);
+    rotate: -1deg;
+    transition: 1s; 
+    /* animation: my-element 2s 1;
+    animation-fill-mode: forwards; */
 }
 
-.reading {
-    background-image: url(../../assets/images/index/reading.jpg);                                   
+/* @keyframes my-element {
+    from {left: 0px;}
+    to {left: 100px;}
+    from {top: 0px;}
+    to {bottom: 100px;}
+  } */
+
+.interest {
+    color: rgb(245, 245, 245);
+    font-variant: small-caps;
+    font-size: 18px;
+    letter-spacing: 2px;
+
+    position: absolute;
+    right: 10px;
+    bottom: -5px;
 }
 
-.reading-menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-
-    opacity: 0;
+.grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(7, 11vh);
+    gap: 10px;
+    z-index: 100;
 }
 
-.reading:hover .reading-menu {
-    opacity: 1;
-    transition: 0.5s;
-    cursor: pointer;
+.one {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    background-image: url(../../assets/images/index/antique.jpg);
+    background-position: start;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.reading-menu p {
-    margin: 15px 0;
+.two {
+    grid-column-start: 3;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-image: url(../../assets/images/index/cooking.jpg);
+    
+    background-position: 0 -380px;
+    background-repeat: no-repeat;
+    background-size: fill;
+}
+
+.three {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    background-image: url(../../assets/images/index/analogic.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: fill;
+}
+
+.four {
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    background-image: url(../../assets/images/analogic-photo/3-cime-autumn-2021.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.five {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 8;
+    background-image: url(../../assets/images/index/reading.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .reading-link {
@@ -84,81 +130,186 @@ main {
     text-decoration: none;
     font-variant: small-caps;
     font-size: 20px;
+    text-align: center;
+
+    position: absolute;
+    left: 50%;
 }
 
-.reading-link:hover {                    
+.reading-link:hover {
     text-decoration: underline;
 }
 
-.cooking {
-    background-image: url(../../assets/images/index/cooking.jpg);
+.gr {
+    margin-left: -48.5px;
+    top: 30%;
 }
 
-.nature {
-    background-image: url(../../assets/images/index/nature.jpg);
-}
-                
-.antique {
-    background-image: url(../../assets/images/index/antique.jpg);
+.ig {
+    margin-left: -45px;
+    top: 55%;
 }
 
-.analog {
-    background-image: url(../../assets/images/index/analogic.jpg);
-}
-
-.my-work {
+.six {
+    grid-column-start: 3;
+    grid-column-end: 8;
+    grid-row-start: 6;
+    grid-row-end: 8;
     background-image: url(../../assets/images/index/my-work.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.interest-class {
-    position: absolute;
-    right: 2%;
-    bottom: 4%;
+@media only screen and (min-width: 200px) and (max-width: 400px) {
+    main {
+        margin: 20% 15%;
+        padding-bottom: 80px;
+    }
+    
+    .title-interest {
+        left: -105px;
+        bottom: 80px;
+    }
+    
+    .interest {
+        font-size: 14px;
+        letter-spacing: 2px;
+        writing-mode: vertical-rl;
+        rotate: 180deg;
 
-    color:rgb(245, 245, 245);
-    font-variant: small-caps;
-    margin: 0;
+        right: -15px;
+        bottom: 5px;
+    }
+    
+    .grid {
+        gap: 5px;
+    }
+    
+    .two {
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .reading-link {
+        font-size: 12px;
+        text-align: left;
+    }
+    
+    .gr {
+        top: 20%;
+        left: 50px;
+    }
+    
+    .ig {
+        top: 40%;
+        left: 47px;
+    }
+    
+    .six {
+        grid-column-start: 3;
+        grid-column-end: 8;
+        grid-row-start: 6;
+        grid-row-end: 8;
+        background-image: url(../../assets/images/index/my-work.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
 
-@media only screen and (max-width: 600px) {
-    .interests-title {
-        letter-spacing: 0px;
-        font-size: 28px;
-        margin-left: -167px;
+@media only screen and (min-width: 401px) and (max-width: 600px) {
+    main {
+        margin: 15% 14%;
+        padding-bottom: 80px;
+    }
+    
+    .title-interest {
+        left: -105px;
+        bottom: 80px;
     }
 
-    .interests-grid {
-        grid-template-columns: 1fr 1fr;
-    }
+    .interest {
+        font-size: 14px;
+        letter-spacing: 2px;
+        writing-mode: vertical-rl;
+        rotate: 180deg;
 
-    .container-interest {
-        height: 120px;
+        right: -10px;
+        bottom: 10px;
+    }
+    
+    .grid {
+        gap: 8px;
+    }
+    
+    .two {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+        
+    .reading-link {
+        font-size: 14px;
+    }
+    
+    .gr {
+        top: 20%;
+        left: 53px;
+    }
+    
+    .ig {
+        top: 40%;
+        left: 50px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+    main {
+        margin: 10% 15%;
+        padding-bottom: 80px;
+    }
+    
+    .title-interest {
+        left: -25%;
+        bottom: 80px;
+    }
+    
+    .interest {
+        right: 5px;
+        bottom: -15px;
     }
 
     .reading-link {
-        font-size: 15px;
-    }
-
-    .reading-menu p {
-        margin: 5px 0;
-    }
-
-    .interest-class {
         font-size: 14px;
-        text-align: right;
-    }
-}
-
-@media only screen and (min-width: 601px) and (max-width: 1201px) {
-    .interests-title {
-        margin-left: -310px;
-        letter-spacing: 5px;
-        
-        font-size: 45px;
     }
     
-    .interests-grid {
-        grid-template-columns: 1fr 1fr;                    
-        gap: 30px 20px;
-    }                
+    .five {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 6;
+        grid-row-end: 8;
+        background-image: url(../../assets/images/index/reading.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }    
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1000px) {
+    main {
+        margin: 15% 18%;
+        padding-bottom: 80px;
+    }
+    
+    .title-interest {
+        left: -180px;
+        bottom: 80px;
+    }
+    
+    .interest {
+        font-size: 20px;
+        right: 5px;
+        bottom: -10px;
+    }
 }

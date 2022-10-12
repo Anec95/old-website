@@ -16,6 +16,10 @@
     top: 65px;
 }
 
+.sup-menu-int {
+    top: 65px;
+}
+
 .button-back,
 .button-home {
     position: relative;
@@ -84,6 +88,10 @@
         top: 65px;
     }
 
+    .sup-menu-int {
+        top: 20px;
+    }
+
     .back {    
         font-size: 17px;
     }
@@ -107,6 +115,10 @@
 
     .sup-interests {
         top: 65px;
+    }
+
+    .sup-menu-int {
+        top: 20px;
     }
 
     .back {    

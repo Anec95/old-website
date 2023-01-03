@@ -68,7 +68,7 @@ main {
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 6;
-    background-image: url(../../assets/images/index/antique.jpg);
+    background-image: url(../../images/index/antique.jpg);
     background-position: start;
     background-repeat: no-repeat;
     background-size: cover;
@@ -79,7 +79,7 @@ main {
     grid-column-end: 10;
     grid-row-start: 1;
     grid-row-end: 3;
-    background-image: url(../../assets/images/index/cooking.jpg);
+    background-image: url(../../images/index/cooking.jpg);
     
     background-position: 0 -380px;
     background-repeat: no-repeat;
@@ -91,7 +91,7 @@ main {
     grid-column-end: 8;
     grid-row-start: 3;
     grid-row-end: 6;
-    background-image: url(../../assets/images/index/analogic.jpg);
+    background-image: url(../../images/index/analogic.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: fill;
@@ -102,7 +102,7 @@ main {
     grid-column-end: 10;
     grid-row-start: 3;
     grid-row-end: 6;
-    background-image: url(../../assets/images/analogic-photo/3-cime-autumn-2021.JPG);
+    background-image: url(../../images/analogic-photo/3-cime-autumn-2021.JPG);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -113,7 +113,7 @@ main {
     grid-column-end: 5;
     grid-row-start: 6;
     grid-row-end: 8;
-    background-image: url(../../assets/images/index/reading.jpg);
+    background-image: url(../../images/index/reading.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -149,7 +149,7 @@ main {
     grid-column-end: 10;
     grid-row-start: 6;
     grid-row-end: 8;
-    background-image: url(../../assets/images/index/my-work.jpg);
+    background-image: url(../../images/index/my-work.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

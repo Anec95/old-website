@@ -13,19 +13,19 @@ body {
 }
 
 .cooking-background {
-    background-image: url(../../assets/images/index/cooking-index.jpg);
+    background-image: url(../../images/index/cooking-index.jpg);
 }
 
 .antique-background {
-    background-image: url(../../assets/images/index/antique.jpg);
+    background-image: url(../../images/index/antique.jpg);
 }
 
 .nature-background {
-    background-image: url(../../assets/images/analogic-photo/3-cime-autumn-2021.JPG);
+    background-image: url(../../images/analogic-photo/3-cime-autumn-2021.JPG);
 }
 
 .reading-background {
-    background-image: url(../../assets/images/reading.jpg);
+    background-image: url(../../images/reading.jpg);
 }
 
 main {

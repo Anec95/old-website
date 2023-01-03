@@ -12,13 +12,13 @@ const imgArray = ["../assets/images/portfolio/page-1.png", "../assets/images/por
 
 function nextImage() {
     if(index < imgArray.length -1) {
-        console.log("Clicked on next page");
-        console.log("current index is " + index);
+        // console.log("Clicked on next page");
+        // console.log("current index is " + index);
 
         index++;
     } else {
-        console.log("There are no more pages available... restarting");
-        console.log("current index is " + index);
+        // console.log("There are no more pages available... restarting");
+        // console.log("current index is " + index);
 
         index=0;
     }                    
@@ -35,13 +35,13 @@ function nextImage() {
 
 function prevImage() {
     if(index > 0) {
-        console.log("Clicked on next page");
-        console.log("current index is " + index);
+        // console.log("Clicked on next page");
+        // console.log("current index is " + index);
 
         index--;
     } else {
-        console.log("There are no prev pages available");
-        console.log("current index is " + index);
+        // console.log("There are no prev pages available");
+        // console.log("current index is " + index);
 
         index=0;
     }

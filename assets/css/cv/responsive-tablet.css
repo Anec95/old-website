@@ -1,0 +1,43 @@
+@media only screen and (min-width: 501px) and (max-width: 1200px) {
+    .passport-photo {
+        left: 14%;                        
+        top: 124px;
+        width: 140px;
+        height: 140px;
+        border: 6px solid white;
+    }
+
+    .title {
+        margin-left: -228px;
+        top: 40px;
+    }
+        
+    .name-title {
+        font-size: 45px;
+    }
+
+    .profession-title {
+        font-size: 20x;
+    }
+
+    main {
+        margin-left: 18%;
+        margin-right: 18%;
+    }
+
+    .photo-bio {
+        width: 160px;
+        height: 250px;
+        align-self: end;
+        margin-bottom: 27px;
+    }
+
+    .bio-text {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .description-project {
+        height: max-content;
+    }
+}

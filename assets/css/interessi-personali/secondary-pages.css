@@ -35,7 +35,6 @@ main {
 .paragraph {
     position: absolute;
     height: max-content;
-    padding: 10px 30px;
 
     color: rgba(52,52,52,1);
     font-size: 20px;
@@ -43,11 +42,16 @@ main {
     border-radius: 40px;
 }
 
+.paragraph p {
+    padding: 0px 30px 10px 30px;
+}
+
 .cooking-paragraph {
     left: 22%;
     top: 30%;
     right: 22%;
     text-align: justify;
+    border-top: 40px solid rgba(66,70,19,0.7);
 }
 
 .antique-paragraph {
@@ -55,13 +59,23 @@ main {
     top: 30%;
     right: 22%;
     text-align: justify;
+    border-top: 40px solid rgba(58,30,6,0.7);
 }
 
 .nature-paragraph {
     left: 25%;
     top: 25%;
     right: 25%;
-    text-align: center;    
+    text-align: center;   
+    border-top: 40px solid rgba(115,53,24,0.7);
+}
+
+.reading-paragraph {
+    left: 22%;
+    top: 30%;
+    right: 22%;
+    text-align: justify;
+    border-top: 40px solid rgba(248,241,219,0.7);
 }
 
 .goodreads-link {

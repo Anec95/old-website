@@ -18,6 +18,7 @@ darkModeBtn.onclick = function() {
     linkDark[3].classList.toggle('link-dark');
     linkDark[4].classList.toggle('link-dark');
     linkDark[5].classList.toggle('link-dark');
+    linkDark[6].classList.toggle('link-dark');
     photoInText.classList.toggle('dark-photo');
     
 

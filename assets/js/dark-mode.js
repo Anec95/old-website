@@ -12,7 +12,6 @@ darkModeBtn.onclick = function() {
     header.classList.toggle('header-dark');
     darkModeBtn.classList.toggle('button-in-dark');
     langSelector.classList.toggle('button-in-dark');
-    divOption.classList.toggle('button-in-dark');
     linkDark[0].classList.toggle('link-dark');
     linkDark[1].classList.toggle('link-dark');
     linkDark[2].classList.toggle('link-dark');

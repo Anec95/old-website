@@ -6,12 +6,12 @@
 
             <link rel="icon" type="image/x-icon" href="../assets/images/favicon/favicon.ico">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/font-awesome.min.css">
             <link rel="stylesheet" href="../assets/css/button.css">
             <link rel="stylesheet" href="../assets/css/cv/index.css">
 
             <meta name="viewport" content="width=device-width, initial-scale= 1.0">
-            
+            <script type="module" src="../assets/js/dark-mode.js"></script>
+            <script type="module" src="../assets/js/lang.js"></script>
         </head>
 
         <body>
@@ -34,6 +34,13 @@
             </header>
 
             <main>
+                <div class="option-container">
+                    <button class="dark-mode-btn"><i class="fa fa-moon-o"></i></button>
+                    <select name="lang" id="lang-selector">
+                        <option value="it">IT</option>
+                        <option value="en">EN</option>
+                    </select>
+                </div>
                 <div class="bio">
                     <div class="photo-bio"></div>
                     <p class="bio-text">La vita è troppo breve per viverla senza quel tocco di pazzia.</p>
@@ -49,11 +56,11 @@
                         <p>CSS</p>
                     </div>
                     <div class="dev-skill">
-                        <i class="fa-brands fa-square-js"></i>
+                        <i class="fa fa-square-js"></i>
                         <p>Javascript</p>
                     </div>
                     <div class="dev-skill">
-                        <i class="fa-brands fa-react"></i>
+                        <i class="fa fa-react"></i>
                         <p>React</p>
                     </div>
                     <div class="dev-skill">
@@ -68,25 +75,28 @@
                         <div class="project">
                             <video src="../assets/clip/christmas-project.mp4" autoplay loop></video>
                             <div>
-                                <p>Christmas Quest</p>
-                                <p><a href="https://github.com/Anec95/christmas-slaughter" target="_blank">Github repo</a></p>
-                                <p>link</p>
+                                <h2>Christmas Quest</h2>
+                                <p class="description-project"></p>
+                                <p><a class="project-link" href="https://github.com/Anec95/christmas-slaughter" target="_blank">Github repo</a></p>
+                                <p><a class="project-link" href="https://christmas-quest.netlify.app/">Start your adventure!</a></p>
                             </div>
                         </div>
                         <div class="project">
                             <video src="../assets/clip/counter-project.mp4" autoplay loop></video>
                             <div>
-                                <p>Count your number</p>
-                                <p><a href="https://github.com/Anec95/count-your-number" target="_blank">Github repo</a></p>
-                                <p>link</p>
+                                <h2>Count your number</h2>
+                                <p class="description-project"></p>
+                                <p><a class="project-link" href="https://github.com/Anec95/count-your-number" target="_blank">Github repo</a></p>
+                                <p><a class="project-link" href="https://count-your-number.netlify.app/">Go to count the number</a></p>
                             </div>
                         </div>
                         <div class="project">
                             <video src="../assets/clip/library-project.mp4" autoplay loop></video>
                             <div>
-                                <p>What am I reading?</p>
-                                <p><a href="https://github.com/Anec95/what-am-i-reading" target="_blank">Github repo</a></p>
-                                <p>link</p>
+                                <h2>What am I reading?</h2>
+                                <p class="description-project"></p>
+                                <p><a class="project-link" href="https://github.com/Anec95/what-am-i-reading" target="_blank">Github repo</a></p>
+                                <p><a class="project-link" href="https://what-am-i-reading.netlify.app/">Find a book</a></p>
                             </div>
                         </div>
                     </div>

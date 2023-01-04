@@ -151,13 +151,13 @@ option {
     gap: 15px;
 }
 
-a:link,
-a:visited,
-a:hover,
-a:active {
+.project a:link,
+.project a:visited,
+.project a:hover,
+.project a:active {
     font-variant: small-caps;
     text-decoration: none;
-    color: rgb(253, 118, 118);
+    color: #C98474;
 }
 
 .link-dark:link,
@@ -182,6 +182,10 @@ a:active {
 
 .dark-title {
     color: #F2D388;
+}
+
+.description-project {
+    height: 110px;
 }
 
 .project p {

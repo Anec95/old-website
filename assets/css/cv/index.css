@@ -20,6 +20,7 @@ header {
     background-position: 0 350px;
     width: 100%;
     height: 200px;
+    z-index: 1;
 }
 
 .header-dark {
@@ -113,6 +114,7 @@ option {
 
 .bio {
     display: flex;
+    padding: 2px;
 }
 
 .photo-bio {

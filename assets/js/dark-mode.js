@@ -4,6 +4,7 @@ let header = document.querySelector('header');
 let divOption = document.getElementsByClassName('option-container')[0];
 let langSelector = document.getElementById('lang-selector');
 let linkDark = document.getElementsByClassName('project-link');
+let photoInText = document.getElementsByClassName('photo-bio')[0];
 
 darkModeBtn.onclick = function() {
     document.body.classList.toggle('dark-mode');
@@ -18,11 +19,12 @@ darkModeBtn.onclick = function() {
     linkDark[3].classList.toggle('link-dark');
     linkDark[4].classList.toggle('link-dark');
     linkDark[5].classList.toggle('link-dark');
+    photoInText.classList.toggle('dark-photo');
     
 
     if (document.body.className === 'dark-mode') {
-        darkModeBtn.innerHTML = '<i class="fa fa-sun-o"></i>'
+        darkModeBtn.innerHTML = '<i class="fa fa-sun-o"></i>';
     } else {
-        darkModeBtn.innerHTML = '<i class="fa fa-moon-o"></i>'
+        darkModeBtn.innerHTML = '<i class="fa fa-moon-o"></i>';
     }
 }

@@ -119,8 +119,12 @@ option {
     width: 300px;
     height: 500px;
     margin: 10px;
-    background-image: url(../../images/thomas-bio-4.jpg);
+    background-image: url(../../images/thomas-bio-2.jpg);
     background-size: cover;
+}
+
+.dark-photo {
+    background-image: url(../../images/thomas-bio-4.jpg);
 }
 
 .bio-text {
@@ -153,14 +157,14 @@ a:hover,
 a:active {
     font-variant: small-caps;
     text-decoration: none;
-    color: rgba(52,52,52,1);
+    color: rgb(253, 118, 118);
 }
 
 .link-dark:link,
 .link-dark:hover,
 .link-dark:active,
 .link-dark:visited {
-    color: rgb(245, 245, 245);
+    color: rgb(90, 172, 248);
 }
 
 .project {
@@ -173,6 +177,11 @@ a:active {
 .project h2 {
     font-variant: small-caps;
     margin-bottom: 10px;
+    color: #994d69;
+}
+
+.dark-title {
+    color: #F2D388;
 }
 
 .project p {

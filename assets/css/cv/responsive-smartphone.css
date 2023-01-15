@@ -58,6 +58,15 @@
         font-size: 16px;
         line-height: 20px;
     }
+
+    .dev-skill p {
+        font-size: 16px;
+        margin-left: 2px;
+    }
+
+    .skill-img {
+        width: 18px;
+    }
     
     .projects-container {
         grid-template-columns: repeat(2, 1fr);
@@ -82,6 +91,12 @@
                     
     footer p {
         margin: 0 0 10px 0;
+    }
+
+    .icons-link {
+        font-size: 10px;
+        bottom: -5px;
+        left: 5px;
     }
     
     .contact:link,
